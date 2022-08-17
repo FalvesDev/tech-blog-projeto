@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: grey;
+}
+
+/* Layout */
+
+header {
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, nav {
+    padding: 10px;
+}
+
+/* geral */
+
+h1 {
+    color: #ffa500; 
+    font-size: 2.5em;
+}
+
+#bcor{
+    color: antiquewhite;
+}
+
+h2{
+    color: blue;
+}
+
+.data{
+    color: #ffa500;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    display: block;
+}
+
+nav a:link,nav a:visited{
+    color: #fff;
+    padding: 7px 12px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: white;
+    color: blue;
+}
+
+main{
+    width: 940px;
+    margin: 15px auto;
+}
+
+article{
+    background-color: #ccc;
+    width: 660px;
+    float: left;
+    border: 8px #ffa500 outset;
+    border-radius: 15px;
+}
+
+aside{
+    background-color: whitesmoke;
+    width: 240px;
+    float: right;
+    border: 8px #ffa500 outset;
+    border-radius: 15px;
+}
+
+h3{
+    text-align: center;
+    background-color: blue;
+    color: antiquewhite;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h4{
+    background-color: #ccc;
+}
+
+.conteudo-lateral{
+    background-color: azure;
+}
+footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: azure;
+}
+
+a:link, a:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
